@@ -1,0 +1,15 @@
+server:
+  port: 18080
+
+spring:
+  application:
+    name: digital-mall
+
+mall:
+  assistant:
+    harness-base-url: http://127.0.0.1:8090
+    agent-id: customer-service-demo
+    channel-code: ${MALL_ASSISTANT_CHANNEL_CODE:}
+    approval-mode: FULL_OPEN
+  security:
+    service-token: ${MALL_SERVICE_TOKEN:mall-internal-demo-token}
