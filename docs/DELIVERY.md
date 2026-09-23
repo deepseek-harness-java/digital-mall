@@ -8,7 +8,7 @@
 | DSH 插件 | ✅ | `digital-mall-assistant`，5 个工具 |
 | README | ✅ | 功能、地址、架构、体验流程、简历、面试要点 |
 | 设计文档 | ✅ | `docs/DESIGN.md` |
-| 运行截图 | ✅ | `docs/images/home.png`、`docs/images/product-detail.png`、`docs/images/assistant-panel.png` |
+| 运行截图 | ✅ | `docs/images/home.png`、`docs/images/product-detail.png`、`docs/images/assistant-chat.png` |
 
 ## 自动化验证
 

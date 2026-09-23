@@ -22,7 +22,7 @@ java -jar digital-mall-app/target/digital-mall-app-1.0.0-SNAPSHOT.jar --server.p
 
 ![商品与商城信息](docs/images/product-detail.png)
 
-![AI 购物助手面板](docs/images/assistant-panel.png)
+![AI 购物助手对话](docs/images/assistant-chat.png)
 
 ## 功能闭环
 

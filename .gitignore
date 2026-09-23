@@ -5,3 +5,6 @@ target/
 *.log
 plugins/
 docs/*.jar
+node_modules/
+package-lock.json
+package.json
