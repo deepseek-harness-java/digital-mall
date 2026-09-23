@@ -25,7 +25,7 @@ java -jar digital-mall-app/target/digital-mall-app-1.0.0-SNAPSHOT.jar --server.p
 
 重启 DSH 可使用技能脚本 `bash /Users/fuzhengwei/.codex/skills/dsh-java-plugin-skills/scripts/start_harness.sh`。内存数据重启后会还原种子状态。
 
-## 项目效果
+## 项目介绍
 
 ![Digital Mall 首页](docs/images/home.png)
 
