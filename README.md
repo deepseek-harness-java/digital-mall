@@ -2,11 +2,20 @@
 
 基于 [DSH Java](https://dsh-java.xiaofuge.cn/) 的完整场景案例：一个 PC 端虚拟数码商城 + Java Native 插件。业务应用提供商品、购物车、订单、支付和物流；DSH 插件把这些能力注册成 Agent 工具，让 AI 基于真实接口推荐商品、查询订单和解释物流。
 
-## 服务地址
+## 使用说明
 
-- 商城：<http://127.0.0.1:18080>
-- DSH 控制台：<http://127.0.0.1:8090>
-- 演示账号：`customer-1 / 123456`
+- **这是什么**：一个 PC 端虚拟数码商城，配套 DSH Java 插件，能把商品、订单、物流注册成 Agent 工具。
+- **你能做什么**：浏览商品、加购下单、模拟支付、查订单物流；还能用 AI 助手直接完成推荐、查单和物流解释。
+- **怎么用**：启动商城和 DSH 后，登录演示账号，右下角打开 AI 助手提问，或在 DSH 控制台做 Agent 对话。
+- **适合谁**：想快速体验 DSH 全链路、学习 Java Native Plugin、或做项目沉淀的人。
+
+## 快捷体验流程
+
+1. 打开商城：<http://127.0.0.1:18080>
+2. 登录演示账号：`customer-1 / 123456`
+3. 右下角点击 **AI 购物助手**，提问：`推荐两款适合通勤的数码产品，并说明为什么。`
+4. 继续问：`查一下我的订单列表，并总结状态。` 或 `帮我查一下订单 MD20260923001025 的物流。`
+5. 打开 DSH 控制台：<http://127.0.0.1:8090>，使用同一插件工具集验证 Agent 对话。
 
 当前服务在本机验证通过，插件 `digital-mall-assistant` 已安装激活。长驻服务可能被回收；重启商城可执行：
 
@@ -20,8 +29,6 @@ java -jar digital-mall-app/target/digital-mall-app-1.0.0-SNAPSHOT.jar --server.p
 
 ![Digital Mall 首页](docs/images/home.png)
 
-![商品与商城信息](docs/images/product-detail.png)
-
 ![AI 购物助手对话](docs/images/assistant-chat.png)
 
 ## 功能闭环
@@ -33,7 +40,7 @@ java -jar digital-mall-app/target/digital-mall-app-1.0.0-SNAPSHOT.jar --server.p
 5. 在页面右下角打开 AI 购物助手，直接提问推荐、对比、订单和物流。
 6. 在 DSH 控制台使用同一个插件工具集进行 Agent 对话。
 
-## 体验流程
+## 完整体验流程
 
 ### 1. 商城页面
 
